@@ -13,7 +13,6 @@ def print_first_directors_movie_titles
   output = ""
   
   while o < directors_database.length do
-    #puts directors_database[o][:name]
     m = 0
     if directors_database[o][:name] == "Stephen Spielberg"
       while m < directors_database[o][:movies].length do
@@ -22,9 +21,8 @@ def print_first_directors_movie_titles
         m += 1
       end
     end
-    
-    #puts directors_database[o].to_s
     o += 1
   end
+  
   output
 end
