@@ -18,6 +18,7 @@ def print_first_directors_movie_titles
       while m < directors_database[o][:movies].length do
         #pp directors_database[o][:movies][m]
         output += directors_database[o][:movies][m][:title]
+        output += "\n"
         m += 1
       end
     end
