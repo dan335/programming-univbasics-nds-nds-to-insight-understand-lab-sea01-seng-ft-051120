@@ -13,6 +13,7 @@ def print_first_directors_movie_titles
   output = ""
   while o < directors_database.length do
     
+    if directors_database[o][:name] == ""
     m = 0
     while m < directors_database[o][:movies].length do
       puts directors_database[o][:movies][m][:title]
