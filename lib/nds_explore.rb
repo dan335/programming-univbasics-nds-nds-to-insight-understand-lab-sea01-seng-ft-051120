@@ -20,7 +20,7 @@ def print_first_directors_movie_titles
       m += 1
     end
     
-    #puts directors_database[o].to_s
+    puts directors_database[o].to_s
     o += 1
   end
   output
